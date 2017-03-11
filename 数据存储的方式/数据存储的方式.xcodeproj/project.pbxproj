@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		C229ABF41E7036BB009E9D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C229ABF31E7036BB009E9D3B /* main.m */; };
 		C229ABF71E7036BB009E9D3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C229ABF61E7036BB009E9D3B /* AppDelegate.m */; };
-		C229ABFA1E7036BB009E9D3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C229ABF91E7036BB009E9D3B /* ViewController.m */; };
 		C229ABFD1E7036BB009E9D3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C229ABFB1E7036BB009E9D3B /* Main.storyboard */; };
 		C229ABFF1E7036BB009E9D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C229ABFE1E7036BB009E9D3B /* Assets.xcassets */; };
 		C229AC021E7036BB009E9D3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C229AC001E7036BB009E9D3B /* LaunchScreen.storyboard */; };
 		C229AC0D1E7036BB009E9D3B /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C229AC0C1E7036BB009E9D3B /* _______Tests.m */; };
 		C229AC181E7036BB009E9D3B /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C229AC171E7036BB009E9D3B /* _______UITests.m */; };
-		C2C42B5E1E73FCB9000D4EF4 /* FMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C42B5D1E73FCB9000D4EF4 /* FMDBViewController.m */; };
-		C2C42B611E7403B2000D4EF4 /* FMDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C42B601E7403B2000D4EF4 /* FMDBTool.m */; };
+		C2C42BB11E74529F000D4EF4 /* FMDB_UseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C42BA61E74529F000D4EF4 /* FMDB_UseViewController.m */; };
+		C2C42BB21E74529F000D4EF4 /* FMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C42BA81E74529F000D4EF4 /* FMDBViewController.m */; };
+		C2C42BB31E74529F000D4EF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C42BAA1E74529F000D4EF4 /* ViewController.m */; };
+		C2C42BB41E74529F000D4EF4 /* shop.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C42BAD1E74529F000D4EF4 /* shop.m */; };
+		C2C42BB51E74529F000D4EF4 /* FMDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C42BB01E74529F000D4EF4 /* FMDBTool.m */; };
+		C2C42BB81E745436000D4EF4 /* YMCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C42BB71E745436000D4EF4 /* YMCacheTool.m */; };
 		C2E987E41E73D33F005E66AD /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E987D91E73D33F005E66AD /* FMDatabase.m */; };
 		C2E987E51E73D33F005E66AD /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E987DB1E73D33F005E66AD /* FMDatabaseAdditions.m */; };
 		C2E987E61E73D33F005E66AD /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E987DD1E73D33F005E66AD /* FMDatabasePool.m */; };
@@ -24,7 +27,6 @@
 		C2E987E81E73D33F005E66AD /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E987E21E73D33F005E66AD /* FMResultSet.m */; };
 		C2E987E91E73D33F005E66AD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2E987E31E73D33F005E66AD /* Info.plist */; };
 		C2E987EC1E73D353005E66AD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E987EB1E73D353005E66AD /* libsqlite3.tbd */; };
-		C2E987EF1E73F4AA005E66AD /* shop.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E987EE1E73F4AA005E66AD /* shop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +51,6 @@
 		C229ABF31E7036BB009E9D3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C229ABF51E7036BB009E9D3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C229ABF61E7036BB009E9D3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C229ABF81E7036BB009E9D3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C229ABF91E7036BB009E9D3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C229ABFC1E7036BB009E9D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C229ABFE1E7036BB009E9D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C229AC011E7036BB009E9D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,10 +61,18 @@
 		C229AC131E7036BB009E9D3B /* 数据存储的方式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数据存储的方式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C229AC171E7036BB009E9D3B /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		C229AC191E7036BB009E9D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2C42B5C1E73FCB9000D4EF4 /* FMDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBViewController.h; sourceTree = "<group>"; };
-		C2C42B5D1E73FCB9000D4EF4 /* FMDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBViewController.m; sourceTree = "<group>"; };
-		C2C42B5F1E7403B2000D4EF4 /* FMDBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBTool.h; sourceTree = "<group>"; };
-		C2C42B601E7403B2000D4EF4 /* FMDBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBTool.m; sourceTree = "<group>"; };
+		C2C42BA51E74529F000D4EF4 /* FMDB_UseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB_UseViewController.h; sourceTree = "<group>"; };
+		C2C42BA61E74529F000D4EF4 /* FMDB_UseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDB_UseViewController.m; sourceTree = "<group>"; };
+		C2C42BA71E74529F000D4EF4 /* FMDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBViewController.h; sourceTree = "<group>"; };
+		C2C42BA81E74529F000D4EF4 /* FMDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBViewController.m; sourceTree = "<group>"; };
+		C2C42BA91E74529F000D4EF4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2C42BAA1E74529F000D4EF4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2C42BAC1E74529F000D4EF4 /* shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shop.h; sourceTree = "<group>"; };
+		C2C42BAD1E74529F000D4EF4 /* shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shop.m; sourceTree = "<group>"; };
+		C2C42BAF1E74529F000D4EF4 /* FMDBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBTool.h; sourceTree = "<group>"; };
+		C2C42BB01E74529F000D4EF4 /* FMDBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBTool.m; sourceTree = "<group>"; };
+		C2C42BB61E745436000D4EF4 /* YMCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCacheTool.h; sourceTree = "<group>"; };
+		C2C42BB71E745436000D4EF4 /* YMCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCacheTool.m; sourceTree = "<group>"; };
 		C2E987D81E73D33F005E66AD /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		C2E987D91E73D33F005E66AD /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		C2E987DA1E73D33F005E66AD /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -78,8 +86,6 @@
 		C2E987E21E73D33F005E66AD /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		C2E987E31E73D33F005E66AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2E987EB1E73D353005E66AD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		C2E987ED1E73F4AA005E66AD /* shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shop.h; sourceTree = "<group>"; };
-		C2E987EE1E73F4AA005E66AD /* shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,18 +138,10 @@
 		C229ABF11E7036BB009E9D3B /* 数据存储的方式 */ = {
 			isa = PBXGroup;
 			children = (
+				C2C42BA41E74529F000D4EF4 /* Controllers */,
+				C2C42BAB1E74529F000D4EF4 /* Model */,
+				C2C42BAE1E74529F000D4EF4 /* Tool */,
 				C2E987D71E73D33F005E66AD /* fmdb */,
-				C229ABF51E7036BB009E9D3B /* AppDelegate.h */,
-				C229ABF61E7036BB009E9D3B /* AppDelegate.m */,
-				C229ABF81E7036BB009E9D3B /* ViewController.h */,
-				C229ABF91E7036BB009E9D3B /* ViewController.m */,
-				C2E987ED1E73F4AA005E66AD /* shop.h */,
-				C2E987EE1E73F4AA005E66AD /* shop.m */,
-				C2C42B5C1E73FCB9000D4EF4 /* FMDBViewController.h */,
-				C2C42B5D1E73FCB9000D4EF4 /* FMDBViewController.m */,
-				C2C42B5F1E7403B2000D4EF4 /* FMDBTool.h */,
-				C2C42B601E7403B2000D4EF4 /* FMDBTool.m */,
-				C229ABFB1E7036BB009E9D3B /* Main.storyboard */,
 				C229ABF21E7036BB009E9D3B /* Supporting Files */,
 			);
 			path = "数据存储的方式";
@@ -152,6 +150,9 @@
 		C229ABF21E7036BB009E9D3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C229ABF51E7036BB009E9D3B /* AppDelegate.h */,
+				C229ABF61E7036BB009E9D3B /* AppDelegate.m */,
+				C229ABFB1E7036BB009E9D3B /* Main.storyboard */,
 				C229ABFE1E7036BB009E9D3B /* Assets.xcassets */,
 				C229AC001E7036BB009E9D3B /* LaunchScreen.storyboard */,
 				C229AC031E7036BB009E9D3B /* Info.plist */,
@@ -176,6 +177,39 @@
 				C229AC191E7036BB009E9D3B /* Info.plist */,
 			);
 			path = "数据存储的方式UITests";
+			sourceTree = "<group>";
+		};
+		C2C42BA41E74529F000D4EF4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2C42BA51E74529F000D4EF4 /* FMDB_UseViewController.h */,
+				C2C42BA61E74529F000D4EF4 /* FMDB_UseViewController.m */,
+				C2C42BA71E74529F000D4EF4 /* FMDBViewController.h */,
+				C2C42BA81E74529F000D4EF4 /* FMDBViewController.m */,
+				C2C42BA91E74529F000D4EF4 /* ViewController.h */,
+				C2C42BAA1E74529F000D4EF4 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C2C42BAB1E74529F000D4EF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2C42BAC1E74529F000D4EF4 /* shop.h */,
+				C2C42BAD1E74529F000D4EF4 /* shop.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2C42BAE1E74529F000D4EF4 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C2C42BAF1E74529F000D4EF4 /* FMDBTool.h */,
+				C2C42BB01E74529F000D4EF4 /* FMDBTool.m */,
+				C2C42BB61E745436000D4EF4 /* YMCacheTool.h */,
+				C2C42BB71E745436000D4EF4 /* YMCacheTool.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		C2E987D71E73D33F005E66AD /* fmdb */ = {
@@ -339,17 +373,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C229ABFA1E7036BB009E9D3B /* ViewController.m in Sources */,
+				C2C42BB51E74529F000D4EF4 /* FMDBTool.m in Sources */,
+				C2C42BB21E74529F000D4EF4 /* FMDBViewController.m in Sources */,
 				C2E987E61E73D33F005E66AD /* FMDatabasePool.m in Sources */,
 				C229ABF71E7036BB009E9D3B /* AppDelegate.m in Sources */,
-				C2C42B611E7403B2000D4EF4 /* FMDBTool.m in Sources */,
 				C2E987E71E73D33F005E66AD /* FMDatabaseQueue.m in Sources */,
-				C2E987EF1E73F4AA005E66AD /* shop.m in Sources */,
+				C2C42BB81E745436000D4EF4 /* YMCacheTool.m in Sources */,
+				C2C42BB31E74529F000D4EF4 /* ViewController.m in Sources */,
 				C229ABF41E7036BB009E9D3B /* main.m in Sources */,
+				C2C42BB41E74529F000D4EF4 /* shop.m in Sources */,
 				C2E987E41E73D33F005E66AD /* FMDatabase.m in Sources */,
-				C2C42B5E1E73FCB9000D4EF4 /* FMDBViewController.m in Sources */,
 				C2E987E81E73D33F005E66AD /* FMResultSet.m in Sources */,
 				C2E987E51E73D33F005E66AD /* FMDatabaseAdditions.m in Sources */,
+				C2C42BB11E74529F000D4EF4 /* FMDB_UseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

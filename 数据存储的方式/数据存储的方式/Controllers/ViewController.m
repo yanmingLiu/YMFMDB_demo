@@ -43,7 +43,7 @@
     
     [self setupDB];
    
-    
+    [self flilePath];
 }
 
 
