@@ -200,24 +200,6 @@
             </objects>
             <point key="canvasLocation" x="-204" y="286.50674662668666"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="r7h-7p-Yxv">
-            <objects>
-                <viewController id="T4N-yD-g3Z" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yYr-S9-akw"/>
-                        <viewControllerLayoutGuide type="bottom" id="qMN-ew-L1Y"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="c77-4L-m5O">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7cP-WU-6SJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3476" y="-90.404797601199405"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="zWV-jq-ddJ">
             <objects>
